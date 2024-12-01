@@ -1,0 +1,10 @@
+api:
+  movies:
+    url: https://eron-movies.wiremockapi.cloud/api/movies/search?page=
+
+spring:
+  redis:
+    host: localhost       # Change this for the Redis Server
+    port: 6379
+    database: 0
+    timeout: 10000
